@@ -1,0 +1,102 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    background-color:#287bff;
+    /*1B1F27*/
+}
+
+.area{
+    display:flex;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#fff;
+    width: 490px;
+    height: 490px;
+    padding: 35px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.212);
+    
+}
+
+.login form{
+    display: flex;
+    flex-direction: column; 
+    width: 100%;
+}
+
+.login .aju img{
+    width: 150px;
+    height: auto;
+
+
+}
+
+.login input{
+    margin-top: 10px;
+    background-color: #fff0f5;
+    border: none;
+    outline: none;
+    height: 45px;
+    border-radius: 7px;
+    color: grey;
+    padding-left: 10px;
+    /*#252A34*/
+}
+
+input::placeholder{
+    color: grey;
+    font-size: 15px;
+    
+}
+
+form input[type="submit"]{
+    display: block;
+    background-color: #287bff;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    color: #fff;
+}
+
+form input[type="submit"]:hover{
+    background-color: lightgreen;
+    color: white;
+    transition: 0.5s;
+}
+
+h1{
+    color:#287bff;
+    text-align: center;
+}
+
+p{
+    color:#fff;
+    text-align: center;
+}
+
+.area .login form h1{
+    font-size: 34px;
+}
+
+a{
+    color: lightgreen;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+a:hover{
+    color:green;
+    transition: 0.5s;
+}
+
+
+
